@@ -1,0 +1,12 @@
+# IDE ve İşletim Sistemi Dosyaları
+.vscode/
+.DS_Store
+*.swp
+
+# Derleme ve Geçici Dosyalar
+build/
+.pio/
+*.bin
+*.elf
+*.hex
+*.o

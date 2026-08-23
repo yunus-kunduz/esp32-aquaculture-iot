@@ -1,0 +1,25 @@
+1.1.3 - Pins added
+1.1.4 - Auto configure mode support for AP added.
+1.1.5 - AP mode UI layout and API fixes added. 
+1.1.6 - Project structure rearranged. LED Indicator added. ResetButton added.
+1.1.7 - setWiFi bug fixes.
+1.1.8 - ESP8266 compile issues fixed.
+1.1.9 - ESP8266 AP Config bugfix.
+1.1.10 - OTA CRAM authentication added. Firmware version is defined in Settings.h FIRMWARE_VERSION.
+1.1.11 - Push button updated to support exit the current provisionig mode (SmartConfig or BLE) and enter AP mode.
+1.1.13 - M module split into M1 (ESP32) M2 (ESP8266)
+1.1.14 - Additional WiFi Logs added.
+1.1.15 - MFan added to support sending temp/humidity
+1.1.16 - Fix junk ending issue in ESP8266 
+       - SmartAP provisionig mode added.
+       - PRIMARY_PROV_MODE and FALLBACK_PROV_MODE added to Settings.h. 
+       - SDK related settings moved to SDKSettings.h from Settings.h. 
+       - BLE provisioing bugfixes. 
+       - Primary provisioing mode to fallback provisioning mode timeout changed to 45 mins.
+       - Module U - Changed to ESP32  
+       - setMinSecurity added for ESP32
+1.1.17 - U2, U3, M3, R2, P2, T2, X, Y, Z Modules added. 
+1.1.18 - Arduino ESP32 Core 2.0.8, ESP8266 Core 3.1.2
+1.1.19 - S1, S2 changed to ESP32
+1.1.20 - C, E changed to ESP32
+1.1.21 - BLE stack not uninitialized after provisioning completed fixed.
